@@ -30,7 +30,7 @@ body {
   height: 80%;
   width: 80%;
   text-align: center;
-  font-size: calc(1.5625rem); /* 25px */
+  font-size: 1.5rem; /* 24px */
   font-weight: 900;
   font-family: cursive;
   background-color: #ffdef6;
@@ -127,60 +127,62 @@ body {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 48rem) { /* 768px */
+@media screen and (max-width: 768px) {
   .wraper {
-    width: 80%;
+    width: 90%;
     height: auto;
   }
 
   .card {
-    width: 90%;
-    font-size: calc(1.25rem); /* 20px */
+    width: 85%;
+    height: 70%;
+    font-size: 1.25rem; /* 20px */
   }
 
   .evlp {
-    border-right: calc(50% - 1.25rem) solid #aa8df6; /* 50% - 20px */
-    border-left: calc(50% - 1.25rem) solid #ddb8ff; /* 50% - 20px */
-    border-bottom: calc(50% - 1.25rem) solid #aa8df6; /* 50% - 20px */
+    border-right: calc(50% - 1rem) solid #aa8df6;
+    border-left: calc(50% - 1rem) solid #ddb8ff;
+    border-bottom: calc(50% - 1rem) solid #aa8df6;
   }
 
   .lid {
-    border-right: calc(50% - 1.25rem) solid transparent; /* 50% - 20px */
-    border-left: calc(50% - 1.25rem) solid transparent; /* 50% - 20px */
-    border-top: calc(50% - 1.25rem) solid #ffa5e3; /* 50% - 20px */
+    border-right: calc(50% - 1rem) solid transparent;
+    border-left: calc(50% - 1rem) solid transparent;
+    border-top: calc(50% - 1rem) solid #ffa5e3;
   }
 
   .shadow {
-    width: 80%;
-    height: 5%;
+    width: 85%;
+    height: 7%;
   }
 }
 
-@media screen and (max-width: 30rem) { /* 480px */
+@media screen and (max-width: 480px) {
   .wraper {
-    width: 90%;
+    width: 95%;
     height: auto;
   }
 
   .card {
-    width: 95%;
-    font-size: calc(1.125rem); /* 18px */
+    width: 90%;
+    height: 65%;
+    font-size: 1.125rem; /* 18px */
   }
 
   .evlp {
-    border-right: calc(50% - 0.625rem) solid #aa8df6; /* 50% - 10px */
-    border-left: calc(50% - 0.625rem) solid #ddb8ff; /* 50% - 10px */
-    border-bottom: calc(50% - 0.625rem) solid #aa8df6; /* 50% - 10px */
+    border-right: calc(50% - 0.5rem) solid #aa8df6;
+    border-left: calc(50% - 0.5rem) solid #ddb8ff;
+    border-bottom: calc(50% - 0.5rem) solid #aa8df6;
   }
 
   .lid {
-    border-right: calc(50% - 0.625rem) solid transparent; /* 50% - 10px */
-    border-left: calc(50% - 0.625rem) solid transparent; /* 50% - 10px */
-    border-top: calc(50% - 0.625rem) solid #ffa5e3; /* 50% - 10px */
+    border-right: calc(50% - 0.5rem) solid transparent;
+    border-left: calc(50% - 0.5rem) solid transparent;
+    border-top: calc(50% - 0.5rem) solid #ffa5e3;
   }
 
   .shadow {
     width: 90%;
-    height: 5%;
+    height: 6%;
   }
 }
