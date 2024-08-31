@@ -14,8 +14,8 @@ body {
 }
 
 .wraper {
-  height: 250px;
-  width: 500px;
+  height: 15.625rem; /* 250px */
+  width: 31.25rem; /* 500px */
   background-color: #f848b5;
   display: flex;
   justify-content: center;
@@ -30,34 +30,34 @@ body {
   height: 80%;
   width: 80%;
   text-align: center;
-  font-size: calc(25px);
+  font-size: calc(1.5625rem); /* 25px */
   font-weight: 900;
   font-family: cursive;
   background-color: #ffdef6;
   position: absolute;
   z-index: 2;
   top: 0;
-  border-radius: 20px;
+  border-radius: 1.25rem; /* 20px */
   transition: all 0.5s ease-in-out;
 }
 
 .wraper:hover .card {
-  transform: translateY(-80px);
+  transform: translateY(-5rem); /* -80px */
   transition-delay: 0.5s;
 }
 
 .wraper:active .card {
-  transform: translateY(-80px);
+  transform: translateY(-5rem); /* -80px */
   transition-delay: 0.5s;
 }
 
 .evlp {
   height: 100%;
   width: 100%;
-  border-top: 125px solid transparent;
-  border-right: 250px solid #aa8df6;
-  border-bottom: 125px solid #aa8df6;
-  border-left: 250px solid #ddb8ff;
+  border-top: 7.8125rem solid transparent; /* 125px */
+  border-right: 15.625rem solid #aa8df6; /* 250px */
+  border-bottom: 7.8125rem solid #aa8df6; /* 125px */
+  border-left: 15.625rem solid #ddb8ff; /* 250px */
   z-index: 3;
   position: absolute;
 }
@@ -66,12 +66,12 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  border-right: 250px solid transparent;
-  border-bottom: 125px solid transparent;
-  border-left: 250px solid transparent;
+  border-right: 15.625rem solid transparent; /* 250px */
+  border-bottom: 7.8125rem solid transparent; /* 125px */
+  border-left: 15.625rem solid transparent; /* 250px */
   transition: all 0.2s linear;
   transform-origin: top;
-  border-top: 125px solid #ffa5e3;
+  border-top: 7.8125rem solid #ffa5e3; /* 125px */
 }
 
 .lid.one {
@@ -99,17 +99,17 @@ body {
 @keyframes bounce {
   0%,
   100% {
-    transform: translateY(-30px);
+    transform: translateY(-1.875rem); /* -30px */
   }
   50% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
 .shadow {
   position: absolute;
   height: 10%;
-  width: 500px;
+  width: 31.25rem; /* 500px */
   background-color: #9b7b98;
   border-radius: 50%;
   transform: rotateX(75deg);
@@ -127,7 +127,7 @@ body {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) { /* 768px */
   .wraper {
     width: 80%;
     height: auto;
@@ -135,19 +135,19 @@ body {
 
   .card {
     width: 90%;
-    font-size: calc(20px);
+    font-size: calc(1.25rem); /* 20px */
   }
 
   .evlp {
-    border-right: calc(50% - 20px) solid #aa8df6;
-    border-left: calc(50% - 20px) solid #ddb8ff;
-    border-bottom: calc(50% - 20px) solid #aa8df6;
+    border-right: calc(50% - 1.25rem) solid #aa8df6; /* 50% - 20px */
+    border-left: calc(50% - 1.25rem) solid #ddb8ff; /* 50% - 20px */
+    border-bottom: calc(50% - 1.25rem) solid #aa8df6; /* 50% - 20px */
   }
 
   .lid {
-    border-right: calc(50% - 20px) solid transparent;
-    border-left: calc(50% - 20px) solid transparent;
-    border-top: calc(50% - 20px) solid #ffa5e3;
+    border-right: calc(50% - 1.25rem) solid transparent; /* 50% - 20px */
+    border-left: calc(50% - 1.25rem) solid transparent; /* 50% - 20px */
+    border-top: calc(50% - 1.25rem) solid #ffa5e3; /* 50% - 20px */
   }
 
   .shadow {
@@ -156,7 +156,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) { /* 480px */
   .wraper {
     width: 90%;
     height: auto;
@@ -164,19 +164,19 @@ body {
 
   .card {
     width: 95%;
-    font-size: calc(18px);
+    font-size: calc(1.125rem); /* 18px */
   }
 
   .evlp {
-    border-right: calc(50% - 10px) solid #aa8df6;
-    border-left: calc(50% - 10px) solid #ddb8ff;
-    border-bottom: calc(50% - 10px) solid #aa8df6;
+    border-right: calc(50% - 0.625rem) solid #aa8df6; /* 50% - 10px */
+    border-left: calc(50% - 0.625rem) solid #ddb8ff; /* 50% - 10px */
+    border-bottom: calc(50% - 0.625rem) solid #aa8df6; /* 50% - 10px */
   }
 
   .lid {
-    border-right: calc(50% - 10px) solid transparent;
-    border-left: calc(50% - 10px) solid transparent;
-    border-top: calc(50% - 10px) solid #ffa5e3;
+    border-right: calc(50% - 0.625rem) solid transparent; /* 50% - 10px */
+    border-left: calc(50% - 0.625rem) solid transparent; /* 50% - 10px */
+    border-top: calc(50% - 0.625rem) solid #ffa5e3; /* 50% - 10px */
   }
 
   .shadow {
